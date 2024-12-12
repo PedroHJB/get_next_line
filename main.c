@@ -6,7 +6,7 @@
 /*   By: pede-jes <pede-jes@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/09 18:44:12 by pede-jes          #+#    #+#             */
-/*   Updated: 2024/12/09 18:45:09 by pede-jes         ###   ########.fr       */
+/*   Updated: 2024/12/12 15:11:49 by pede-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	main(void)
 
 	fd = open("teste.txt", O_RDONLY);
 	i = 1;
-	while (i < 15)
+	while (i < 100)
 	{
 		s = get_next_line(fd);
 		printf("line [%02d]: %s", i, s);
