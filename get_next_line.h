@@ -6,7 +6,7 @@
 /*   By: pede-jes <pede-jes@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 11:39:01 by pede-jes          #+#    #+#             */
-/*   Updated: 2024/12/12 17:39:44 by pede-jes         ###   ########.fr       */
+/*   Updated: 2024/12/16 15:58:28 by pede-jes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 
 # include <fcntl.h>
 # include <stddef.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -30,5 +29,6 @@ char	*ft_str_join(char *string, char *string_to_join);
 int		ft_str_len(char *string);
 char	*ft_next_line(char *string);
 char	*ft_remove_line(char *string);
+void	*free_static(char **first_str, char **second_str);
 
 #endif
